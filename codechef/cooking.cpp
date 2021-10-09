@@ -1,13 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
-    int n;
-    cin>>n;
+    int num;
+    cin>>num;
     int ans = 0;
-    while(n>0) {
-        ans = ans*10 + (n%10);
-        n = n/10;
-    }
+    while(num>0) {
+        ans = ans*10 + (num%10);
+        num = num/10;
+    } 
     cout<<ans<<"\n";
     return 0;
 }
